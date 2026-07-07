@@ -244,10 +244,10 @@ Por último, personalicé los enlaces sociales, los datos de contacto y revisé 
 
 
 **Repositorio de GitHub:**  
-Colocar aquí el enlace del repositorio.
+https://github.com/JahirRoblero/MiPortafolio
 
 **Página publicada en GitHub Pages:**  
-Colocar aquí el enlace del portafolio funcionando.
+https://jahirroblero.github.io/MiPortafolio/
 
 
 
