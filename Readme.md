@@ -10,7 +10,7 @@
 **Proyecto:** Portafolio Web Personal  
 
 
-## Descripción breve del proyecto
+## Descripción del proyecto
 
 Este proyecto consiste en el desarrollo de un portafolio web personal utilizando HTML, CSS, JavaScript y Bootstrap. El objetivo principal es presentar información personal, formación académica, habilidades, proyectos realizados y medios de contacto dentro de una página web funcional, organizada y publicada mediante GitHub Pages.
 
@@ -160,10 +160,7 @@ También se reemplazaron los scripts locales por CDN:
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 ```
 
-Gracias a este cambio, el proyecto quedó más ligero, más ordenado y más fácil de subir a GitHub Pages.
-
-
-## Archivos eliminados o no utilizados
+## Archivos eliminados 
 
 Durante la adaptación de la plantilla, algunos archivos originales dejaron de ser necesarios, por ejemplo:
 
@@ -173,13 +170,11 @@ Durante la adaptación de la plantilla, algunos archivos originales dejaron de s
 - `starter-page.html`
 - `service-details.html`
 
-El archivo `contact.php` no se utilizó porque GitHub Pages no ejecuta código PHP. Por esa razón, la sección de contacto se adaptó usando información directa como correo, redes sociales y enlaces profesionales.
-
 ## Secciones del portafolio
 
 ### Inicio
 
-En esta sección se muestra la presentación principal del portafolio. Incluye el nombre del estudiante, una frase de presentación profesional y una foto de perfil formal.
+En esta sección se muestra la presentación principal de mi portafolio. Incluye el nombre del estudiante, una frase de presentación profesional y una foto de perfil formal.
 ![Inicio](img/inicioPortafolio.png)
 
 ### Acerca de mí
@@ -189,21 +184,18 @@ Esta sección contiene una descripción personal como estudiante de Ingeniería 
 
 ### Resumen
 
-En esta parte se presenta información relacionada con la formación académica, estudios previos y proyectos desarrollados. Incluye estudios en el Instituto Tecnológico de Oaxaca y formación técnica previa en el CBTis No. 263.
+En esta parte se presenta información relacionada con mi formación académica, estudios previos y proyectos desarrollados. Incluye estudios en el Instituto Tecnológico de Oaxaca y mi formación técnica previa en el CBTis No. 263.
 ![Resumen](img/Resumen.png)
-### Habilidades
-
-La sección de habilidades muestra tecnologías y herramientas utilizadas o en proceso de aprendizaje, como HTML, CSS, JavaScript, Bootstrap, Java, PostgreSQL, Git y GitHub.
 
 ### Proyectos
 
-En esta sección se muestran proyectos académicos y personales desarrollados durante la formación. Cada proyecto cuenta con una página de detalles donde se explica su objetivo, tecnologías utilizadas y funcionalidades principales.
+En esta sección se muestran mis proyectos académicos y personales desarrollados durante la formación. Cada proyecto cuenta con una página de detalles donde se explica su objetivo, tecnologías utilizadas y funcionalidades principales.
 
 ![Proyectos](img/Portafolio.png)
 
 ### Contacto
 
-La sección de contacto permite mostrar medios para comunicarse o conocer más sobre el perfil profesional, incluyendo GitHub, Instagram y LinkedIn.
+La sección de contacto muestra los medios para comunicarse o conocer más sobre mi perfil profesional, incluyendo GitHub, Instagram y LinkedIn.
 
 ![Contacto](img/contacto.png)
 ## Proceso de desarrollo
@@ -214,15 +206,13 @@ Después organicé mejor los archivos del proyecto. Separé mis imágenes en una
 
 También cambié varias librerías que venían cargadas de forma local y las pasé a enlaces CDN. Con esto evité depender de tantos archivos descargados dentro del proyecto y dejé la estructura más ligera para que funcionara correctamente en GitHub Pages.
 
-Luego empecé a personalizar el archivo `index.html`. Cambié los textos originales de la plantilla, que estaban en inglés, por información mía en español. Agregué mi foto de perfil real, modifiqué la sección de inicio, la parte de “Acerca de mí”, el resumen, mis habilidades y la información de contacto.
+Luego empecé a personalizar el archivo `index.html`. Cambié los textos originales de la plantilla, que estaban en inglés, por información mía en español.
 
 En la sección de resumen agregué mi formación actual en Ingeniería en Sistemas Computacionales en el Instituto Tecnológico de Oaxaca, además de mi formación técnica en el CBTis No. 263. También añadí tecnologías que manejo o estoy aprendiendo, como HTML, CSS, JavaScript, Java, Spring Boot, PostgreSQL, Kotlin, Git y GitHub.
 
 Después agregué mis proyectos al portafolio. Entre ellos incluí el sistema web de gestión de pedidos de gas, la aplicación móvil Fondo Joven y otros proyectos personales o académicos. Para mostrar mejor cada proyecto, creé páginas de detalle usando archivos como `portfolio-details.html`, `portfolio-details2.html` y `portfolio-details3.html`.
 
 También ajusté las imágenes de los proyectos para que se vieran bien dentro del diseño, sobre todo las capturas verticales de aplicaciones móviles. Revisé que funcionaran correctamente el menú, los enlaces, las animaciones, los filtros del portafolio y los sliders de imágenes.
-
-Por último, preparé este README para documentar el proceso, subí el proyecto a un repositorio público en GitHub y activé GitHub Pages para publicar el portafolio en línea.
 
 
 ## Modificaciones principales realizadas
