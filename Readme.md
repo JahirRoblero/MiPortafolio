@@ -90,9 +90,6 @@ SNAPFOLIO/
 └── Readme.txt
 ```
 
-Esta estructura original contenía archivos locales para estilos, scripts, imágenes, librerías externas, archivos SCSS y un formulario en PHP.
-
-
 ## Cambios realizados a la estructura original
 
 Para que el portafolio cumpliera con los requisitos de la actividad, hice varios cambios a la estructura original de la plantilla. La idea fue dejar el proyecto más ordenado, más ligero y más fácil de revisar.
